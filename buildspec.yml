@@ -9,11 +9,14 @@ phases:
   build:
     commands:
       - npm run build
+
+  post_build:
+    commands:
       - mkdir app
       - mv out app
       - mv scripts app
       - mv appspec.yml app
-
+      
 artifacts:
   files:
     - "**/*"
