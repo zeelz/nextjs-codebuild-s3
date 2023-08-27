@@ -40,6 +40,10 @@ export default function Home() {
         <h1 className={styles.fatfont}>zeelz</h1>
       </div>
 
+      {["foo", "bar"].map((i, j) => (
+        <li key={"vancouver" + j}>{i}</li>
+      ))}
+
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
