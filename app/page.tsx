@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div>
         {/* <Image
           className={styles.logo}
           src="/next.svg"
@@ -47,10 +47,6 @@ export default function Home() {
           work to get a working CI/CD pipeline
         </p>
       </div>
-
-      {["foo", "bar"].map((i, j) => (
-        <li key={"vancouver" + j}>{i}</li>
-      ))}
 
       <div className={styles.grid}>
         <a

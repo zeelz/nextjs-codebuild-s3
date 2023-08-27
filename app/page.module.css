@@ -78,6 +78,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  text-align: center;
 }
 
 .center::before {
@@ -102,6 +103,10 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .logo {
