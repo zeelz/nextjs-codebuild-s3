@@ -9,11 +9,15 @@ phases:
   build:
     commands:
       - npm run build
+        mkdir app
+        mv out app
+        mv scripts app
+        mv appspec.yml app
 
 artifacts:
   files:
     - "**/*"
-  base-directory: "out"
+  base-directory: "app"
 
   cache:
     paths:
