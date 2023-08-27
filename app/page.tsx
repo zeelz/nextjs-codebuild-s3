@@ -37,7 +37,15 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        <h1 className={styles.fatfont}>zeelz</h1>
+        <h1 className={styles.fatfont}>AWS Codepipeline</h1>
+        <h3>
+          This tiny boilerplate demonstrates how to set up CI/CD using
+          Codepipeline with Codebuild and CodeDeploy, to deploy to EC2
+        </h3>
+        <p>
+          Mehn, even without AWS AutoScalling and Load Balancing, it's a lot of
+          work to get a working CI/CD pipeline
+        </p>
       </div>
 
       {["foo", "bar"].map((i, j) => (
