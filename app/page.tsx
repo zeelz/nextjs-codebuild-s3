@@ -37,7 +37,7 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        <h1 className={styles.fatfont}>zeelz</h1>
+        <h1 className={styles.fatfont}>Codepipeline to S3</h1>
       </div>
 
       {["foo", "bar"].map((i, j) => (
